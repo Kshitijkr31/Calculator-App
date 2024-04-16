@@ -1,0 +1,85 @@
+body {
+  background-image: url("https://imgur.com/a/PpAEmjW");
+  background-position: center; 
+  background-size: cover;
+}
+
+
+.container {
+  width: 200px;
+  background-color: #1a1a1a;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.h1{
+  text-align: center;
+  color: dodgerblue;
+  font-size: 27px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-end: span 2;
+  gap: 5px;
+  background-color: #2b3c30;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  color: white;
+    background-color: #221a1a;
+  cursor: pointer;
+}
+
+.row input{
+  margin-bottom: 11px;
+  background-color:#7ee06f;
+    width: 193px;
+    font-size: 20px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 340px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border: 1px solid #ccc;
+    border-radius: 22px;
+  }
+
+  .row input{
+    margin-bottom: 11px;
+      width: 333px;
+      background-color: #7ee06f;
+      height: 68px;
+  }
+
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #2b3c30;
+    grid-column-end: span 2;
+    gap: 20px;
+    cursor: pointer;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+  
+
+}
